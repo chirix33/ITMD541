@@ -17,14 +17,15 @@ header {
     padding: 20px 0;
 }
 
-header h1 {
+header h3 {
     display: inline;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
 }
 
 header ul {
@@ -50,11 +51,29 @@ header ul li a {
     background-color: #910A67;
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .hero h2 {
     font-size: 2.5rem;
+}
+
+.hero .photo {
+    border-radius: 50%;
+    margin: 20px;
+    object-fit: cover;
+    /* Parallax effect */
+    transform: translateY(-50px);
+    transition: transform 0.5s;
+}
+
+.lead {
+    position: relative;
+    left: 0;
 }
 
 button {
@@ -71,9 +90,16 @@ button:hover {
 }
 
 .features {
-    padding: 50px 20px;
     background-color: #f4f4f4;
     text-align: center;
+}
+
+.features .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 100px;
 }
 
 .feature-box {
@@ -83,6 +109,7 @@ button:hover {
     display: inline-block;
     border-radius: 5px;
     width: 30%;
+    height: 200px;
 }
 
 footer {
