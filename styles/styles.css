@@ -1,5 +1,6 @@
 /* 
     Color Scheme from colorhunt.co
+    https://colorhunt.co/palette/0306373c0753720455910a67
 */
 body {
     margin: 0;
@@ -60,6 +61,7 @@ header ul li a {
 
 .hero h2 {
     font-size: 2.5rem;
+    margin: 0;
 }
 
 .hero .photo {
