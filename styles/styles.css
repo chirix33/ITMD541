@@ -113,7 +113,7 @@ a:hover {
     display: inline-block;
     border-radius: 5px;
     width: 30%;
-    height: 230px;
+    min-height: 250px;
     flex-shrink: 0;
 }
 
@@ -122,6 +122,39 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #910A67;
+    outline: none;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 1px solid #910A67;
+    outline: none;
+}
+
+button {
+    background-color: #3C0753;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    outline: none;
 }
 
 @media screen and (max-width: 860px) {
