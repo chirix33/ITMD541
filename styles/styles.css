@@ -5,6 +5,7 @@
 body {
     margin: 0;
     font-family: "Montserrat", system-ui;
+    box-sizing: border-box;
 }
   
 .container {
@@ -131,6 +132,7 @@ form {
     gap: 10px;
     max-width: 400px;
     margin: 0 auto;
+    font-family: "Montserrat";
 }
 
 input {
